@@ -1,4 +1,4 @@
 title = "Zagłoba Polish Club"
-baseurl = "http://artur-sak13.github.io/zagloba"
+baseurl = "http://artur-sak13.github.io/zagloba/docs"
 languageCode = "en-us"
 publishDir = "docs"

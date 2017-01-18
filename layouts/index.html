@@ -1,7 +1,7 @@
 {{ partialCached "header.html" . }}
 <!-- Facebook JS -->
 <div id="fb-root"></div>
-<script src="/js/fb.js"></script>
+<script src="{{ .Site.BaseURL }}/js/fb.js"></script>
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="homepage-hero-module">
@@ -14,7 +14,7 @@
 		<div class="title-container">
 			<div class="inner">
 				<div class="eagle-div">
-					<img src="/images/ZPCseal.png" class="eagle">
+					<img src="{{ .Site.BaseURL }}/images/ZPCseal.png" class="eagle">
 				</div>
 			</div>
 			<div class="headline">
@@ -27,7 +27,7 @@
 		</div>
 		<div class="filter" style= "height: 100%"></div>
 		<video autoplay loop class="fillWidth" style="width: 100%; height: 100%;">
-			<source src="/images/poland.mp4" type="video/mp4" />
+			<source src="{{ .Site.BaseURL }}/images/poland.mp4" type="video/mp4" />
 		</video>
 	</div>
 </div>

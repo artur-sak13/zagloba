@@ -5,16 +5,16 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<script src="/js/jquery-2.2.4.min.js"></script>
-		<script src="/js/bootstrap.min.js"></script>
+		<script src="{{ .Site.BaseURL }}/js/jquery-2.2.4.min.js"></script>
+		<script src="{{ .Site.BaseURL }}/js/bootstrap.min.js"></script>
 
-		<link rel="stylesheet" href="/css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css" />
-		<link rel="stylesheet" type="text/css" href="/css/base.css" />
-		<link rel="stylesheet" type="text/css" href="/css/about.css" />
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/base.css" />
+		<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/about.css" />
 
 		<title>Zagłoba Polish Club</title>
-		<link rel="shortcut icon" href="/images/favicon.ico" />
+		<link rel="shortcut icon" href="{{ .Site.BaseURL }}/images/favicon.ico" />
 	</head>
 
 	<body>
@@ -22,24 +22,24 @@
 			<div class="navbar navbar-fixed-top" style="color: #ccc !important; background-color: #ffffff;" role="navigation">
 				<div class="container-fluid">
 					<div class="navbar-header">
-						<a class="navbar-brand undo-bootstrap-a site-brand" style="font-size: 20px !important;" href="/">Zagłoba Polish Club</a>
+						<a class="navbar-brand undo-bootstrap-a site-brand" style="font-size: 20px !important;" href="{{ .Site.BaseURL }}/">Zagłoba Polish Club</a>
 					</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav pull-right">
 							<li>
-								<a class="undo-bootstrap-a" href="/">Home</a>
+								<a class="undo-bootstrap-a" href="{{ .Site.BaseURL }}/">Home</a>
 							</li>
 							<li>
-								<a class="undo-bootstrap-a" href="/about/">About Us</a>
+								<a class="undo-bootstrap-a" href="{{ .Site.BaseURL }}/about/">About Us</a>
 							</li>
 							<li>
-								<a class="undo-bootstrap-a" href="/events/">Events</a>
+								<a class="undo-bootstrap-a" href="{{ .Site.BaseURL }}/events/">Events</a>
 							</li>
 							<li>
-								<a class="undo-bootstrap-a" href="/psla/">PSLA</a>
+								<a class="undo-bootstrap-a" href="{{ .Site.BaseURL }}/psla/">PSLA</a>
 							</li>
 							<li>
-								<a class="undo-bootstrap-a" href="/contact/">Contact</a>
+								<a class="undo-bootstrap-a" href="{{ .Site.BaseURL }}/contact/">Contact</a>
 							</li>
 						</ul>
 					</div>

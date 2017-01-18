@@ -1,0 +1,105 @@
+{{ partial "header.html" . }}
+<div class="container-fluid" style="margin-top: 4%;">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 80px; color: #777;">
+		<h1 style="text-align: center;">Polish Student Leaders Assembly</h1>
+		<hr style="width: 15%; border-color: indianred;"> 
+	</div>
+
+	<nav class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bs-docs-sidebar">
+	    <ul id="sidebar" class="nav nav-stacked fixed">
+	        <li>
+	            <a href="#mission">Mission</a>
+	        </li>
+
+	        <li>
+	            <a href="#projects">Projects & Programs</a>
+	        </li>
+
+	        <li>
+	            <a href="#involvement">Zagłoba's Involvement</a>
+	        </li>
+	    </ul>
+	</nav>
+
+	<div class="row row-space">
+		<section id="mission">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-center">
+				<img src="/images/psla.jpg" style="width: inherit; height: 450px">
+				<div class="visual">
+					<div style="padding: 0; top: 40%; position: absolute; width: 100%;">
+						<h1>Mission</h1>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-box">
+					<h3 style="margin-bottom: 15px;">What is PSLA?</h3>
+					{{ .Content }}
+				</div>
+			</div>
+		</section>
+	</div>
+	<div class="row row-space">
+		<section id="projects">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-center">
+				<img src="/images/iza_with_psla.jpg" style="width: inherit; height: 450px">
+				<div class="visual">
+					<div style="padding: 0; top: 40%; position: absolute; width: 100%;">
+						<h1>Projects & Programs</h1>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-box">
+					<h3 style="margin-bottom: 15px;">Development of Polish Youth Cultural Institutions</h3>
+					<ul>
+						<li>Establishing new "Polish Clubs" at Universities with Polish communities</li>
+						<li>Developing and cultivating pre-existing Polish clubs and providing resources to connect with other schools and the greater Polish community</li>
+						<li>Reaching out to officially established Polish schools (K-12) and helping older students prepare to transition to University life</li>
+					</ul>
+					<h3>Creation of Cultural Programs and Philanthropy</h3>
+					<ul>
+						<li>Volunteering in Polish events and/or organizations throughout the Chicagoland area</li>
+						<li>Creating and offering scholarships for Polish students heading to college</li>
+						<li>Leadership/Polish Youth Conference</li>
+					</ul>
+					<h3>Networking</h3>
+					<ul>
+						<li>Connecting with the Polish professional community</li>
+						<li>Providing opportunities for young Polish entrepreneurs to grow their businesses</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</div>
+	<div class="row row-space">
+		<section id="involvement">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-center">
+				<img src="/images/zagloba&psla.jpg" style="width: inherit; height: 450px">
+				<div class="visual">
+					<div style="padding: 0; top: 40%; position: absolute; width: 100%;">
+						<h1>Zagłoba's Involvement</h1>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-box">
+					<h3 style="margin-bottom: 15px;">A brief history</h3>
+					<ul>
+						<li>Officially announced in the Summer of 2016 that we will be joining the Polish Student Leaders Assembly</li>
+						<li>Developed proposals to organize and structure the organization more effectively</li>
+						<li>Reached out to Loyola, DePaul, UIC, Northwestern, Univeristy of Chicago, and Lake Forest College to organize branches of PSLA within each respective school</li>
+						<li>Recently expanded from leaders within executive positions to all determined members within Zagłoba and other Polish clubs</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</div>
+	<script>
+		$('body').scrollspy({
+	    	target: '.bs-docs-sidebar',
+	    	offset: 40
+		});
+
+		$('.board-wrap').mouseenter(function(){
+			$(this).children('.board-cov').css("display", "block");
+		}).mouseleave(function(){
+			$(this).children(".board-cov").css("display", "none");
+		});
+	</script>
+</div>
+{{ partial "footer.html" . }}

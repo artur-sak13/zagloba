@@ -1,0 +1,4 @@
+title = "Zagłoba Polish Club"
+baseurl = "http://artur-sak13.github.io/zagloba"
+languageCode = "en-us"
+publishDir = "docs"

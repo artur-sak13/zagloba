@@ -1,0 +1,315 @@
+<style>
+	/*.main-section {
+		height: 600px;
+		width: 100%;
+		overflow: hidden;
+		background-size: auto 100%;
+		position: relative;
+	}*/
+
+	/*.clear-pad-lr {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}*/
+	/*.vid-contain {
+		position: relative;
+		height: inherit;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 2;
+		overflow: hidden;
+	}*/
+
+	/*.video {
+		top: 0;
+		left: 0;
+		width: 100%;
+		min-width: 100%;
+		min-height: 100%;
+		position: absolute;
+		display: inline-block;
+		vertical-align: baseline;
+		object-fit: cover;
+	}*/
+	/*.main-section-ovr {
+		height: inherit;
+		z-index: 3;
+		background-color: rgba(50,50,50,0.8)!important;
+		position: relative;
+		border-top: 1px solid #f7f7f7;
+	}*/
+/*
+	.main-txt {
+		margin: 90px 0 0;
+		text-align: center;
+	}
+	.main-txt h1 {
+		width: 100%;
+		font-size: 35px;
+    	color: #ffffff;
+    	line-height: 35px;
+    	font-weight: 500;
+    	font-family: 'Inknut Antiqua', serif;
+   	}
+
+   	.main-txt h4 {
+   		width: 100%;
+		font-size: 20px;
+    	color: #ffffff;
+    	line-height: 35px;
+    	font-family: 'Inknut Antiqua', serif;
+
+   	}*/
+
+   	/*.header.affix {
+   		width: 100% !important;
+   		z-index: 4;
+   		top: 0;
+   	}
+
+   	.big-but {
+   		height: 48px;
+   		width: 150px;
+   		background-color: #800000;
+   		color: white;
+   		font-family: 'Ubuntu', sans-serif !important;
+   		font-size: 16px !important;
+
+   		display: inline-block;
+	    padding: 6px 12px;
+	    margin-bottom: 0;
+	    font-size: 14px;
+	    font-weight: 400;
+	    text-align: center;
+	    vertical-align: middle;
+	    cursor: pointer;
+	    border: 1px solid transparent;
+	    border-radius: 4px;
+   	}
+
+   	.big-but:hover {
+   		background-color: #400000;
+
+   	}
+   	.eagle-div {
+   		height: 250px;
+   		width: 100%;
+   	}
+   	.eagle {
+   		height: 250px;
+   		opacity: 0.8;
+   	}*/
+/*
+   	.header-contain { 
+	   	height: 100px;
+	    display: block;
+   	 }*/
+
+   /*	.header {
+	   	height: 70px;
+	    display: block;
+	    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+	    padding: 15px 0 0;
+	    z-index: 2;
+	    background-color: #ffffff;
+   	}*/
+
+   /*	.navi {
+   		float: right;
+   		opacity: 1;
+   	}*/
+   	/*.email-button:hover {
+   		cursor: pointer;
+   		color: #fff;
+   	}
+*/
+  /* 	.email-button {
+   		font-family: Ubuntu, sans-serif;
+   		font-size: 16px;
+   		margin-top: 15px !important;
+	    display: block;
+	    width: 150px;
+	    height: 40px;
+	    background: rgb(219,68,55);
+	    padding: 3px;
+	    text-align: center;
+	    border-radius: 3px;
+	    color: white;
+	    font-weight: bold;
+	}*/
+
+ /*  	.navi li {
+   		float: left;
+   		margin: 0 0 0 32px;
+   		line-height: 40px;
+   		font-size: 18px;
+   	}
+
+   	.navi li:hover {
+   		color: #000;
+   	}*/
+   	/*.container {
+   		margin-bottom: 70px;
+   	}*/
+   	/*.center-div {
+   		margin: auto;
+   		display: block;
+   	}*/
+
+   	/*.info {
+   		display: block;
+   		border: 1px solid #efefef;
+   		background-color: #ffffff;
+   		margin: 80px auto 0;
+   		min-height: 710px;
+   		color: #565353;
+   		font-family: 'Quattrocento Sans',sans-serif;
+   		font-size: 20px;
+   	}*/
+</style>
+
+
+
+<div class="header" data-spy="affix" id="zag-navbar">
+		<div class="container">
+			<ul class="navi" style="list-style: none; color: #ccc;">
+				<li id="about-the-project">About the Club</li>
+				<li>Officers</li>
+				<li>Events</li>
+				<li>Rozrywka</li>
+				<li>Archives</li>
+				<li>Contact Us</li>
+			</ul>
+		</div>
+	</div>
+	<div class="main-section">
+		<div class="vid-contain">
+			<video preload="auto" poster="{% static 'majorsort/poland.mp4' %}" autoplay="autoplay" loop="loop" class="video">
+				<source src="{% static 'majorsort/poland.mp4' %}">
+			</video>
+		</div>
+		<div class="main-section-ovr">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 main-txt">
+						<h1>Witamy!</h1>
+						<div class="eagle-div">
+							<img src="{% static 'majorsort/ZPCseal.png' %} " class="eagle">
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 30px;">
+							<h4><i>"Jesteśmy różni, pochodzimy z różnych stron Polski, mamy różne zainteresowania, ale łączy nas jeden cel. Cel ten to Ojczyzna."</i> -Roman Dmowski</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class= "header-contain">
+		<div class="container">
+			<div class="info" id="project-info" style="display: inline-block;">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 55px 65px 55px 65px; height: 100%;">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: inline-block;">
+						<h1 style="color: #bbb">About Us</h1>
+						<hr style="margin: 30px 0px 30px 0px;">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" style="padding: 0;">
+							<span style="line-height: 1.8">Zagloba Polish Club is a cultural and professional organization aimed at UIUC students who are native polish speakers, individuals of Polish heritage, and those interested in learning Polish. Zagloba Polish Club sponsors various social events including barndances, semi-formals, Polish folk-dancing, coffee hours, and other social and philanthropic events.</span>
+							<!-- <h3 style="margin-top: 0px !important;">Executive Board 2016-2017</h3>
+							<ul style="font-size: 18px; list-style: none; padding: 0;">
+								<li style="margin-top: 15px;">Bohater i Założyciel Klubu - <span style="color: #aaa;">Jan Onufry Zagłoba</span></li>
+								<li style="margin-top: 15px;">Prezes (President) - <span style="color: #aaa;">Marcin Wasilewski</span></li>
+								<li style="margin-top: 15px;">Skarbnik (Treasurer) - <span style="color: #aaa;">Julia Szumny</span></li>
+								<li style="margin-top: 15px;">Wiceprezes Spraw Towarzyskich (VP Social) - <span style="color: #aaa;">Robert Zając i David Sierant</span></li>
+								<li style="margin-top: 15px;">Wiceprezes Spraw Kulturalnych (VP Culture) - <span style="color: #aaa;">Maja Bułka</span></li>
+								<li style="margin-top: 15px;">Wiceprezes Filantropii (VP Philanthropy) - <span style="color: #aaa;">Nicole Worytko</span></li>
+								<li style="margin-top: 15px;">Sekretarz (Secretary) - <span style="color: #aaa;">Izabela Kowalczyk</span></li>
+								<li style="margin-top: 15px;">Wiceprezes Mediji (VP Media) - <span style="color: #aaa;">Artur Sak</span></li>
+								
+							</ul> -->
+						</div>
+						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" style="display: inline-block; padding: 8px 0px 0px 0px">
+							<img src="{% static 'majorsort/2016Board.jpg' %} " style="display: block; border: 2px solid black; width: 90%; float: right;">
+						</div>
+						<!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 0;">
+							<hr style="margin: 30px 0px 30px 0px;">
+						</div> -->
+						<!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pad-lr">
+							<span>Zagloba Polish Club is a cultural and professional organization aimed at UIUC students who are native polish speakers, individuals of Polish heritage, and those interested in learning Polish. Zagloba Polish Club sponsors various social events including barndances, semi-formals, Polish folk-dancing, coffee hours, and other social and philanthropic events.</span>
+						</div> -->
+					</div>
+					<hr>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="info" id="officers" style="display: inline-block; width: 100%;">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 55px 65px 55px 65px; height: 100%;">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<h1 style="color: #bbb">Officers</h1>
+						<hr style="margin: 30px 0px 30px 0px;">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pad-lr">
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 0;">
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style="padding: 0;">
+									<img class="center-div" style="width: 100px; height: 115px;" src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png">
+									<a class="email-button center-div" href="mailto:mwasile2@illinois.edu"><span style="vertical-align: -webkit-baseline-middle;">Email Marcin</span></a>
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style="padding: 0;">
+									<img class="center-div" style="width: 150px; height: 215px;" src="{% static 'majorsort/Julia.jpg' %}">
+									<a class="email-button center-div" href="mailto:jszumn2@illinois.edu"><span style="vertical-align: -webkit-baseline-middle;">Email Julia</span></a>
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style="padding: 0;">
+									<img class="center-div" style="width: 100px; height: 115px;" src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png">
+									<a class="email-button center-div" href="mailto:rzajac2@illinois.edu"><span style="vertical-align: -webkit-baseline-middle;">Email Robert</span></a>
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style="padding: 0;">
+									<img class="center-div" style="width: 100px; height: 115px;" src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png">
+									<a class="email-button center-div" href="mailto:dsiera2@illinois.edu"><span style="vertical-align: -webkit-baseline-middle;">Email David</span></a>
+								</div>
+							</div>
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 0; margin-top: 20px;">
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style="padding: 0;">
+									<img class="center-div" style="width: 100px; height: 115px;" src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png">
+									<a class="email-button center-div" href="mailto:bulka2@illinois.edu"><span style="vertical-align: -webkit-baseline-middle;">Email Maja</span></a>
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style="padding: 0;">
+									<img class="center-div" style="width: 150px; height: 215px;" src="{% static 'majorsort/Nicole.jpg' %}">
+									<a class="email-button center-div" href="mailto:nworyt2@illinois.edu"><span style="vertical-align: -webkit-baseline-middle;">Email Nicole</span></a>
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style="padding: 0;">
+									<img class="center-div" style="width: 100px; height: 115px;" src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png">
+									<a class="email-button center-div" href="mailto:ikowalc2@illinois.edu"><span style="vertical-align: -webkit-baseline-middle;">Email Izabela</span></a>
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style="padding: 0;">
+									<img class="center-div" style="width: 100px; height: 115px;" src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png">
+									<a class="email-button center-div" href="mailto:sak2@illinois.edu"><span style="vertical-align: -webkit-baseline-middle;">Email Artur</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="info" id="annual-events" style="display: inline-block; width: 100%;">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 55px 65px 55px 65px; height: 100%;">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<h1 style="color: #bbb">Events</h1>
+						<hr style="margin: 30px 0px 30px 0px;">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pad-lr">
+							<iframe src="https://calendar.google.com/calendar/embed?src=polishclubzagloba%40gmail.com&ctz=America/Chicago" style="border: 0; width: 100%;" height="600" frameborder="0" scrolling="no"></iframe>
+						</div>
+					</div>
+					<hr>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>

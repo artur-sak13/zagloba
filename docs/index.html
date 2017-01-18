@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script src="/js/jquery-2.2.4.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" href="/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="/css/base.css" />
+		<link rel="stylesheet" type="text/css" href="/css/about.css" />
+
+		<title>Zagłoba Polish Club</title>
+		<link rel="shortcut icon" href="/images/favicon.ico" />
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<div class="navbar navbar-fixed-top" style="color: #ccc !important; background-color: #ffffff;" role="navigation">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand undo-bootstrap-a site-brand" style="font-size: 20px !important;" href="/">Zagłoba Polish Club</a>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav pull-right">
+							<li>
+								<a class="undo-bootstrap-a" href="/">Home</a>
+							</li>
+							<li>
+								<a class="undo-bootstrap-a" href="/about/">About Us</a>
+							</li>
+							<li>
+								<a class="undo-bootstrap-a" href="/events/">Events</a>
+							</li>
+							<li>
+								<a class="undo-bootstrap-a" href="/psla/">PSLA</a>
+							</li>
+							<li>
+								<a class="undo-bootstrap-a" href="/contact/">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+<div id="fb-root"></div>
+<script src="/js/fb.js"></script>
+
+
+<div class="homepage-hero-module">
+	<script>
+    	var height = $(window).height();
+		var unitHeight = parseInt(height) + 'px';
+		$('.homepage-hero-module').css('height', unitHeight).css("margin-top", parseInt($(".navbar").height()) + "px");
+	</script>
+	<div class="video-container">
+		<div class="title-container">
+			<div class="inner">
+				<div class="eagle-div">
+					<img src="/images/ZPCseal.png" class="eagle">
+				</div>
+			</div>
+			<div class="headline">
+				<h1 style="font-size: 350%; margin-top: 50px; margin-bottom: 20px !important;">Witamy!</h1>
+				<h3 style="font-size: 155%">
+					<i>"Jesteśmy różni, pochodzimy z różnych stron Polski, mamy różne zainteresowania, ale łączy nas jeden cel. Cel ten to Ojczyna..."</i>
+					
+				</h3>
+			</div>
+		</div>
+		<div class="filter" style= "height: 100%"></div>
+		<video autoplay loop class="fillWidth" style="width: 100%; height: 100%;">
+			<source src="/images/poland.mp4" type="video/mp4" />
+		</video>
+	</div>
+</div>
+
+
+<div class="container-fluid" id="content">
+	<script>
+		$("#content").css("min-height", parseInt($(window).height() - $(".homepage-hero-module").height() - 220) + "px");
+	</script>
+
+	<div class="row" style="padding-top: 35px !important;">
+		<div class="col-md-9" style="margin-bottom: 25px;">
+			<h2>Heading</h2>
+			<p>
+				Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+			</p>
+			<p>
+				<a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+			</p>
+		</div>
+
+		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+			<div class="fb-page" data-href="https://www.facebook.com/ZaglobaPolishClub/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+				<blockquote cite="https://www.facebook.com/ZaglobaPolishClub/" class="fb-xfbml-parse-ignore">
+					<a href="https://www.facebook.com/ZaglobaPolishClub/">Zagloba Polish Club</a>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+</div>
+		</div>
+		<footer class="footer">
+			<div class="top"> 
+				<div class="alt-contain">
+					<ul class="social-navs">
+						<li><a href="https://www.facebook.com/ZaglobaPolishClub" class="fa fa-facebook"></a></li>
+						<li><a href="https://twitter.com/zaglobaplclub" class="fa fa-twitter"></a></li>
+						<li><a href="https://www.linkedin.com/groups/8526515" class="fa fa-linkedin"></a></li>
+						<li><a href="https://www.youtube.com/channel/UCucTLiePvNGC70dvaJarRjg" class="fa fa-youtube-play"></a></li>
+						<li><a href="/contact/" class="fa fa-envelope"></a></li>
+					</ul>
+					<h4>&copy; Big Sak Productions 2016</h4>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

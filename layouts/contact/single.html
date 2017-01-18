@@ -1,0 +1,81 @@
+{{ partial "header.html" . }}
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>
+<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
+<script type="text/javascript" src="/js/validation.js"></script>
+
+<style type="text/css">
+	.glyphicon {
+		right: 5px !important;
+	}
+	.glyphicon-remove,
+	.glyphicon-ok {
+		right: -35px !important;
+	}
+	.help-block {
+		text-align: left;
+	}
+	.glyphicon-refresh-animate {
+		-animation: spin .7s infinite linear;
+		-webkit-animation: spin2 .7s infinite linear;
+	}
+	@-webkit-keyframes spin2 {
+		from { -webkit-transform: rotate(0deg);}
+		to { -webkit-transform: rotate(360deg);}
+	}
+	@keyframes spin {
+		from { transform: scale(1) rotate(0deg);}
+		to { transform: scale(1) rotate(360deg);}
+	}
+</style>
+
+<div class="container-fluid" style="min-height: 100%;">
+	<div class="col-lg-12" style="margin-top: 4%; color: #777;">
+	<h1 style="text-align: center;">Contact Us</h1>
+	<hr style="width: 15%; border-color: indianred;">
+	<div class="col-lg-12 row row-space" style="margin-top: 25px;">
+		<div class="col-lg-7">
+			<div class="row">
+				<h2 style="text-align: center;"><a href="mailto:polishclubzaloba@gmail.com" class="link-color">polishclubzaloba@gmail.com</a></h2>
+			</div>
+			<div class="col-lg-12 row" id="sub-wrap">
+				<h3 style="text-align: center;">Subscribe to our email-list</h3>
+				<form class="form-inline" style="text-align: center;" id="test-form">
+					<div class="form-group">
+						<div class="inputGroupContainer">
+							<div class="input-group">
+								<input class="form-control" type="email" name="email" placeholder="Your email">
+								<span class="input-group-btn">
+									<button type="submit" id="postForm" class="btn btn-default">Subscribe</button>
+								</span>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="col-lg-5">
+			<form class="form-horizontal" action="https://formspree.io/polishclubzagloba@gmail.com" method="POST">
+				<div class="form-group">
+					<label>Name</label>
+		    		<input class="form-control" type="text" name="name" placeholder="Jan Onufry Zagłoba">
+		    	</div>
+
+		    	<div class="form-group">
+		    		<label>Email Address</label>
+		    		<input class="form-control" type="email" name="_replyto" placeholder="kowalski2@illinois.edu">
+		    	</div>
+
+		    	<div class="form-group">
+		    		<label>Message</label>
+		    		<textarea class="form-control" name="_replyto" rows="3" placeholder="Your message here..."></textarea>
+		    	</div>
+
+		    	<div class="form-group">
+		    		<button class="btn btn-primary submit" style="background-color: black; font-weight: 700;" type="submit">Submit</button>
+		    	</div>
+		    	<input type="text" name="_gotcha" style="display:none" />
+			</form>
+		</div>
+	</div>
+</div>
+{{ partial "footer.html" . }}

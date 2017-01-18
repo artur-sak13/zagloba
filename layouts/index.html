@@ -1,0 +1,61 @@
+{{ partialCached "header.html" . }}
+<!-- Facebook JS -->
+<div id="fb-root"></div>
+<script src="/js/fb.js"></script>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="homepage-hero-module">
+	<script>
+    	var height = $(window).height();
+		var unitHeight = parseInt(height) + 'px';
+		$('.homepage-hero-module').css('height', unitHeight).css("margin-top", parseInt($(".navbar").height()) + "px");
+	</script>
+	<div class="video-container">
+		<div class="title-container">
+			<div class="inner">
+				<div class="eagle-div">
+					<img src="/images/ZPCseal.png" class="eagle">
+				</div>
+			</div>
+			<div class="headline">
+				<h1 style="font-size: 350%; margin-top: 50px; margin-bottom: 20px !important;">Witamy!</h1>
+				<h3 style="font-size: 155%">
+					<i>"Jesteśmy różni, pochodzimy z różnych stron Polski, mamy różne zainteresowania, ale łączy nas jeden cel. Cel ten to Ojczyna..."</i>
+					<!-- <i>"Jesteśmy różni, pochodzimy z różnych stron Polski, mamy różne zainteresowania, ale łączy nas jeden cel. Cel ten to Ojczyzna." - Roman Dmowski</i>  -->
+				</h3>
+			</div>
+		</div>
+		<div class="filter" style= "height: 100%"></div>
+		<video autoplay loop class="fillWidth" style="width: 100%; height: 100%;">
+			<source src="/images/poland.mp4" type="video/mp4" />
+		</video>
+	</div>
+</div>
+
+<!-- Rows of columns -->
+<div class="container-fluid" id="content">
+	<script>
+		$("#content").css("min-height", parseInt($(window).height() - $(".homepage-hero-module").height() - 220) + "px");
+	</script>
+
+	<div class="row" style="padding-top: 35px !important;">
+		<div class="col-md-9" style="margin-bottom: 25px;">
+			<h2>Heading</h2>
+			<p>
+				Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+			</p>
+			<p>
+				<a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+			</p>
+		</div>
+
+		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+			<div class="fb-page" data-href="https://www.facebook.com/ZaglobaPolishClub/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+				<blockquote cite="https://www.facebook.com/ZaglobaPolishClub/" class="fb-xfbml-parse-ignore">
+					<a href="https://www.facebook.com/ZaglobaPolishClub/">Zagloba Polish Club</a>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+</div>
+{{ partialCached "footer.html" . }}

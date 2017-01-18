@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Zagłoba Polish Club</title>
-    <link>http://artur-sak13.github.io/zagloba/post/index.xml</link>
+    <link>http://artur-sak13.github.io/zagloba/docs/post/index.xml</link>
     <description>Recent content in Posts on Zagłoba Polish Club</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Jan 2017 01:09:27 -0600</lastBuildDate>
-    <atom:link href="http://artur-sak13.github.io/zagloba/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://artur-sak13.github.io/zagloba/docs/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>first</title>
-      <link>http://artur-sak13.github.io/zagloba/post/first/</link>
+      <link>http://artur-sak13.github.io/zagloba/docs/post/first/</link>
       <pubDate>Thu, 12 Jan 2017 01:09:27 -0600</pubDate>
       
-      <guid>http://artur-sak13.github.io/zagloba/post/first/</guid>
+      <guid>http://artur-sak13.github.io/zagloba/docs/post/first/</guid>
       <description>
 
 &lt;h1 id=&#34;my-first-blog-post-yeh-boiiii&#34;&gt;My first blog post yeh boiiii!!!&lt;/h1&gt;

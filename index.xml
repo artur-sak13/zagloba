@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zagłoba Polish Club</title>
+    <link>http://artur-sak13.github.io/zagloba/index.xml</link>
+    <description>Recent content on Zagłoba Polish Club</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Jan 2017 03:05:25 -0600</lastBuildDate>
+    <atom:link href="http://artur-sak13.github.io/zagloba/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>googlecal</title>
+      <link>http://artur-sak13.github.io/zagloba/googlecal/</link>
+      <pubDate>Mon, 16 Jan 2017 03:05:25 -0600</pubDate>
+      
+      <guid>http://artur-sak13.github.io/zagloba/googlecal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>contact</title>
+      <link>http://artur-sak13.github.io/zagloba/contact/</link>
+      <pubDate>Fri, 13 Jan 2017 17:54:54 -0600</pubDate>
+      
+      <guid>http://artur-sak13.github.io/zagloba/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>psla</title>
+      <link>http://artur-sak13.github.io/zagloba/psla/</link>
+      <pubDate>Fri, 13 Jan 2017 02:31:58 -0600</pubDate>
+      
+      <guid>http://artur-sak13.github.io/zagloba/psla/</guid>
+      <description>&lt;p&gt;Representing the Polish-American youth within Chicago and surrounding areas, the Polish Student Leader’s Assembly (PSLA) is an organization founded, developed, and supervised by polish students in higher education. The mission of the group is to assist in reaching out to younger polish student completing education at surrounding cultural institutions, founding, developing, and assisting polish cultural organizations within higher education, and working among the polish youth to establish a presence within the community via philanthropic projects, cultural programs, and other events that aim to foster traditions and the Polish identity. This organization serves as a clear medium of communication and collaboration between new generations of Polish-Americans to continue cultivating the root values that make-up Polish Americanism.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>events</title>
+      <link>http://artur-sak13.github.io/zagloba/events/</link>
+      <pubDate>Thu, 12 Jan 2017 01:48:48 -0600</pubDate>
+      
+      <guid>http://artur-sak13.github.io/zagloba/events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://artur-sak13.github.io/zagloba/about/</link>
+      <pubDate>Thu, 12 Jan 2017 01:40:28 -0600</pubDate>
+      
+      <guid>http://artur-sak13.github.io/zagloba/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

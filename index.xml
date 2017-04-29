@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zagłoba Polish Club</title>
-    <link>https://artur-sak13.github.io/zagloba/index.xml</link>
+    <link>https://artur-sak13.github.io/zagloba/</link>
     <description>Recent content on Zagłoba Polish Club</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Jan 2017 03:05:25 -0600</lastBuildDate>
-    <atom:link href="https://artur-sak13.github.io/zagloba/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://artur-sak13.github.io/zagloba/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>googlecal</title>
@@ -33,8 +35,7 @@
       <pubDate>Fri, 13 Jan 2017 02:31:58 -0600</pubDate>
       
       <guid>https://artur-sak13.github.io/zagloba/psla/</guid>
-      <description>&lt;p&gt;Representing the Polish-American youth within Chicago and surrounding areas, the Polish Student Leader’s Assembly (PSLA) is an organization founded, developed, and supervised by polish students in higher education. The mission of the group is to assist in reaching out to younger polish student completing education at surrounding cultural institutions, founding, developing, and assisting polish cultural organizations within higher education, and working among the polish youth to establish a presence within the community via philanthropic projects, cultural programs, and other events that aim to foster traditions and the Polish identity. This organization serves as a clear medium of communication and collaboration between new generations of Polish-Americans to continue cultivating the root values that make-up Polish Americanism.&lt;/p&gt;
-</description>
+      <description>Representing the Polish-American youth within Chicago and surrounding areas, the Polish Student Leader’s Assembly (PSLA) is an organization founded, developed, and supervised by polish students in higher education. The mission of the group is to assist in reaching out to younger polish student completing education at surrounding cultural institutions, founding, developing, and assisting polish cultural organizations within higher education, and working among the polish youth to establish a presence within the community via philanthropic projects, cultural programs, and other events that aim to foster traditions and the Polish identity.</description>
     </item>
     
     <item>
